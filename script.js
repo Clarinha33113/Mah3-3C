@@ -6,72 +6,101 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Como as crenças religiosas podem influenciar as políticas de controle populacional, especialmente em casos de estupro, e qual é o impacto disso na superpopulação?
+",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "As crenças religiosas que proíbem o aborto e o uso de contraceptivos podem dificultar o controle populacional, contribuindo para a superpopulação."
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Algumas religiões encorajam grandes famílias, o que pode agravar o problema da superpopulação, mesmo em casos de gravidez por estupro."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-        alternativas: [
+         alternativas: [
+            {
+                texto: "Isso é assustador!",
+                afirmacao: "Certas crenças religiosas defendem o valor da vida desde a concepção, independentemente das circunstâncias, o que pode levar a um aumento da população."
+            },
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: "No entanto, há correntes religiosas que apoiam a educação sexual e o uso de métodos contraceptivos para evitar a superpopulação."
+            }
+        ]
+    },
+    {
+          texto: "Isso é maravilhoso!",
+                afirmacao: " Algumas religiões podem promover a ideia de que as vítimas de estupro têm o direito de decidir sobre o aborto, ajudando a controlar a população."
+            }
+        ]
+    },
+    {
+        enunciado: "Como a moralidade religiosa pode afetar a percepção da sociedade sobre o aborto em casos de estupro, e qual seria o impacto disso na superpopulação?: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: " A moralidade religiosa pode condenar o aborto em todas as circunstâncias, incluindo em casos de estupro, o que pode levar a um aumento populacional."
             },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: " Algumas religiões oferecem apoio às vítimas de estupro, defendendo o direito ao aborto, o que pode ajudar a controlar a população."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
+         {
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: "A condenação religiosa ao aborto pode levar a um aumento de nascimentos indesejados, exacerbando a superpopulação."
+            },
+            {
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: " Em contrapartida, certas religiões promovem a adoção como uma alternativa ao aborto, ajudando a gerir o crescimento populacional."
+            }
+        ]
+    },
+    {
+           texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: " A influência religiosa pode levar à criação de leis que restringem o aborto, contribuindo para a superpopulação.
+"
+            }
+        ]
+    },
+    {
+        enunciado: "De que maneira a superpopulação e as restrições religiosas ao aborto em casos de estupro podem estar interconectadas, e quais são as possíveis soluções éticas para esse dilema?: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: " A superpopulação pode ser exacerbada pelas restrições religiosas ao aborto, especialmente em casos de gravidez por estupro."
             },
             {
                 texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Algumas religiões defendem a vida em qualquer circunstância, contribuindo para a superpopulação, mas também promovem outras formas de controle populacional."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+        {
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: "As restrições ao aborto por razões religiosas podem levar a um crescimento populacional descontrolado, especialmente em contextos de violência sexual."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: "Existem correntes religiosas que, apesar de serem contra o aborto, promovem a educação sexual e o planejamento familiar como formas de controlar a população."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+        {
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: " A superpopulação pode ser controlada por políticas que conciliem princípios religiosos com soluções éticas, como o apoio à adoção ou ao planejamento familiar."
             }
         ]
     },
-];
+    {
+      
 
+      
 
 let atual = 0;
 let perguntaAtual;
