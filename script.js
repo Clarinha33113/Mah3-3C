@@ -20,26 +20,34 @@ const perguntas = [
         ]
     },
     {
-         alternativas: [
-            {
+                alternativas: [
+            
                 texto: "Isso é assustador!",
                 afirmacao: "Certas crenças religiosas defendem o valor da vida desde a concepção, independentemente das circunstâncias, o que pode levar a um aumento da população."
             },
             {
+                      alternativas: [
+              {            
                 texto: "Isso é maravilhoso!",
                 afirmacao: "No entanto, há correntes religiosas que apoiam a educação sexual e o uso de métodos contraceptivos para evitar a superpopulação."
             }
         ]
     },
     {
+      alternativas: [
+{            
           texto: "Isso é maravilhoso!",
                 afirmacao: " Algumas religiões podem promover a ideia de que as vítimas de estupro têm o direito de decidir sobre o aborto, ajudando a controlar a população."
             }
         ]
     },
     {
-        enunciado: "Como a moralidade religiosa pode afetar a percepção da sociedade sobre o aborto em casos de estupro, e qual seria o impacto disso na superpopulação?: [
-            {
+        enunciado: "Como a moralidade religiosa pode afetar a percepção da sociedade sobre o aborto em casos de estupro, e qual seria o impacto disso na superpopulação?: [",
+                alternativas: [
+                    {
+
+            
+      {            
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: " A moralidade religiosa pode condenar o aborto em todas as circunstâncias, incluindo em casos de estupro, o que pode levar a um aumento populacional."
             },
@@ -68,7 +76,9 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "De que maneira a superpopulação e as restrições religiosas ao aborto em casos de estupro podem estar interconectadas, e quais são as possíveis soluções éticas para esse dilema?: [
+        enunciado: "De que maneira a superpopulação e as restrições religiosas ao aborto em casos de estupro podem estar interconectadas, e quais são as possíveis soluções éticas para esse dilema?: [",
+                alternativas: [
+                    {
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: " A superpopulação pode ser exacerbada pelas restrições religiosas ao aborto, especialmente em casos de gravidez por estupro."
